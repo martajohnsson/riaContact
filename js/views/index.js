@@ -30,7 +30,6 @@ define(
             
         	render : function() {
                 //window.localStorage.clear()
-               //lägger till artist modelen för create-album-template och renderar ut html
                this.$el.html( this.template({
 					artist : this.artistCollection.models
 				}));   
